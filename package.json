@@ -1,0 +1,15 @@
+{
+  "name": "7utree",
+  "version": "1.0.0",
+  "description": "qiyu tree component with regular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "giflee",
+  "license": "ISC",
+  "dependencies": {
+    "regular": "^0.1.6",
+    "regular-ui": "^0.1.8"
+  }
+}
