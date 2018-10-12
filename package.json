@@ -4,12 +4,22 @@
   "description": "qiyu tree component with regular",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --open"
   },
   "author": "giflee",
   "license": "ISC",
   "dependencies": {
     "regular": "^0.1.6",
     "regular-ui": "^0.1.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "glob": "^7.1.3",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }
